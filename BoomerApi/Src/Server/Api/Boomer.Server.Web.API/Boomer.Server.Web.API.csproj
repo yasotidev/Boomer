@@ -96,6 +96,32 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Client\Core\Boomer.Web.Core\Boomer.Web.Core.csproj">
+      <Project>{1fc2cb7c-3fd0-41cb-934d-0fd1a40dccf8}</Project>
+      <Name>Boomer.Web.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Boomer.Server.Core.Configuration\Boomer.Server.Core.Configuration.csproj">
+      <Project>{5821965f-2579-4f8c-96e8-49582149e546}</Project>
+      <Name>Boomer.Server.Core.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Boomer.Server.Core.Contract\Boomer.Server.Core.Contract.csproj">
+      <Project>{b951e0a3-0284-47cd-a397-032f9882562b}</Project>
+      <Name>Boomer.Server.Core.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Boomer.Server.Core.Data\Boomer.Server.Core.Data.csproj">
+      <Project>{6d62ed96-1ae8-4401-ad7d-f5a860d41b18}</Project>
+      <Name>Boomer.Server.Core.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Boomer.Server.Core.Model\Boomer.Server.Core.Model.csproj">
+      <Project>{2a09c983-c02c-4161-b22e-3ddc60ad91d6}</Project>
+      <Name>Boomer.Server.Core.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Services\Boomer.Server.Services.Service\Boomer.Server.Services.Service.csproj">
+      <Project>{f1155c24-9587-471a-9498-1b347205299d}</Project>
+      <Name>Boomer.Server.Services.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
