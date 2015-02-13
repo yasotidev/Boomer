@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boomer.Server.Services.Serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boomer.Server.Core.Contract", "Src\Server\Core\Boomer.Server.Core.Contract\Boomer.Server.Core.Contract.csproj", "{B951E0A3-0284-47CD-A397-032F9882562B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boomer.Server.Core.Model", "Src\Server\Core\Boomer.Server.Core.Model\Boomer.Server.Core.Model.csproj", "{2A09C983-C02C-4161-B22E-3DDC60AD91D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B951E0A3-0284-47CD-A397-032F9882562B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B951E0A3-0284-47CD-A397-032F9882562B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B951E0A3-0284-47CD-A397-032F9882562B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A09C983-C02C-4161-B22E-3DDC60AD91D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A09C983-C02C-4161-B22E-3DDC60AD91D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A09C983-C02C-4161-B22E-3DDC60AD91D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A09C983-C02C-4161-B22E-3DDC60AD91D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

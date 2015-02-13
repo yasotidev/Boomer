@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Boomer.Server.Core.Data
+namespace Boomer.Server.Core.Contract
 {
-    public class User
+    public class UserRepository
     {
-        public string Id { get; set; }
     }
 }
