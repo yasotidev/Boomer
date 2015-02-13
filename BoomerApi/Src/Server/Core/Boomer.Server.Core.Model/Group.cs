@@ -10,10 +10,12 @@ namespace Boomer.Server.Core.Model
     {
         public Group()
         {
-            
+           RoleGroups = new List<RoleGroup>(); 
         }
 
         public string Id { get; set; }
         public string Name { get; set; }
+
+        public virtual ICollection<RoleGroup> RoleGroups { get; set; }
     }
 }
