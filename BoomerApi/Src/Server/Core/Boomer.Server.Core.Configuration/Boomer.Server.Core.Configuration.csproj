@@ -54,6 +54,7 @@
     <Compile Include="UserConfiguration.cs" />
     <Compile Include="UserGroupConfiguration.cs" />
     <Compile Include="UserLoginConfiguration.cs" />
+    <Compile Include="UserProfileConfiguration.cs" />
     <Compile Include="UserRoleConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>

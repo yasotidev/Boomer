@@ -62,6 +62,7 @@
     <Compile Include="UserClaimRepository.cs" />
     <Compile Include="UserGroupRepository.cs" />
     <Compile Include="UserLoginRepository.cs" />
+    <Compile Include="UserProfileRepository.cs" />
     <Compile Include="UserRepository.cs" />
     <Compile Include="UserRoleRepository.cs" />
   </ItemGroup>
