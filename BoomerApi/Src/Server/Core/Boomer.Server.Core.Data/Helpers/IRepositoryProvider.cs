@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data.Entity;
 using Boomer.Server.Core.Contract;
+using Boomer.Server.Core.Contract.Helpers;
 
 namespace Boomer.Server.Core.Data.Helpers
 {

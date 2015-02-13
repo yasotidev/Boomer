@@ -8,5 +8,9 @@ namespace Boomer.Server.Core.Model
 {
     public class UserClaim
     {
+        public UserClaim()
+        {
+            
+        }
     }
 }

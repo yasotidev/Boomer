@@ -8,5 +8,9 @@ namespace Boomer.Server.Core.Model
 {
     public class Group
     {
+        public Group()
+        {
+            
+        }
     }
 }

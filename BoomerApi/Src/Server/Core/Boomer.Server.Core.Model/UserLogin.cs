@@ -8,5 +8,9 @@ namespace Boomer.Server.Core.Model
 {
     public class UserLogin
     {
+        public UserLogin()
+        {
+            
+        }
     }
 }
