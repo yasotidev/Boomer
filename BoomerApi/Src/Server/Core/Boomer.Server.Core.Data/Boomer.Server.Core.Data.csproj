@@ -39,8 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GroupRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BoomerContext.cs" />
+    <Compile Include="UserClaimRepository.cs" />
+    <Compile Include="UserGroupRepository.cs" />
+    <Compile Include="UserRepository.cs" />
+    <Compile Include="UserRoleRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Boomer.Server.Core.Configuration\Boomer.Server.Core.Configuration.csproj">
